@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.speedometer-container {
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.speedometer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.speed {
+  font-size: 36px;
+}
+
+.rpm {
+  width: 200px;
+  height: 20px;
+  background-color: #3498db;
+  border-radius: 5px;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+.indicator {
+  height: 100%;
+  background-color: #e74c3c;
+  width: 0;
+  transition: width 0.5s ease;
+}
+
+.gear {
+  font-size: 24px;
+  background-color: #2ecc71;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
