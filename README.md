@@ -4,4 +4,4 @@ When you want to upload a video about this script, please leave a link directly 
 
                               NOTE!!!
 
-For this resource there are a lot of new updates and improvements incoming
+For this resource there are a lot of new updates and improvements coming in the future
